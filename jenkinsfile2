@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World'
+                echo 'Script github hook'
             }
         }
     }
     post { 
         always { 
-            echo 'I will always say Hello again!'
+            echo 'Script auto'
         }
     }
 }
